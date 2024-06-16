@@ -15,6 +15,7 @@
     ],
 
     "engines" : [
-        "Starzix"
+        "Starzix",
+        "Motor"
     ]
 }
