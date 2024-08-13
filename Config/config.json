@@ -17,6 +17,7 @@
 
     "engines" : [
         "Starzix",
-        "Motor"
+        "Motor",
+        "Renegade"
     ]
 }
