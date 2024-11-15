@@ -1,6 +1,6 @@
 {
     "private" : false,
-    "nps"     : 750000,
+    "nps"     : 1200000,
     "source"  : "https://github.com/zzzzz151/Starlynn",
 
     "build" : {
