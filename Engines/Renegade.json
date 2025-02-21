@@ -14,9 +14,9 @@
         "default" : {
             "base_branch"       : "main",
             "book_name"         : "UHO_Lichess_4852_v1.epd",
-            "test_bounds"       : "[0.00, 3.50]",
+            "test_bounds"       : "[0.00, 3.00]",
             "test_confidence"   : "[0.10, 0.05]",
-            "win_adj"           : "movecount=3 score=400",
+            "win_adj"           : "movecount=4 score=500",
             "draw_adj"          : "movenumber=40 movecount=8 score=10"
         },
         "STC" : {
@@ -29,6 +29,11 @@
             "both_time_control" : "50.0+0.5",
             "workload_size"     : 8
         },
+        "VSTC" : {
+            "both_options"      : "Threads=1 Hash=8",
+            "both_time_control" : "3.0+0.03",
+            "workload_size"     : 64
+        },
         "Nodes" : {
             "both_options"      : "Threads=1 Hash=4",
             "both_time_control" : "N=25000",
@@ -39,7 +44,7 @@
             "draw_adj"          : "None"
         },
         "NonReg" : {
-            "test_bounds"       : "[-3.50, 0.00]",
+            "test_bounds"       : "[-3.00, 0.00]",
             "test_confidence"   : "[0.10, 0.05]"
         }
     },
@@ -47,7 +52,7 @@
     "tune_presets" : {
         "default" : {
             "book_name" : "UHO_Lichess_4852_v1.epd",
-            "win_adj"   : "movecount=3 score=400",
+            "win_adj"   : "movecount=4 score=500",
             "draw_adj"  : "movenumber=40 movecount=8 score=10"
         }
     },
