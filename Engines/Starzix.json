@@ -1,6 +1,6 @@
 {
     "private" : false,
-    "nps"     : 1600000,
+    "nps"     : 1200000,
     "source"  : "https://github.com/zzzzz151/Starzix",
 
     "build" : {
@@ -28,7 +28,7 @@
         },
 
         "LTC" : {
-            "both_options"      : "Threads=1 Hash=64",
+            "both_options"      : "Threads=1 Hash=96",
             "both_time_control" : "40.0+0.4",
             "workload_size"     : 8
         }
